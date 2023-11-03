@@ -13,13 +13,13 @@
   }
   nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 0% 6%;
     justify-content: space-between;
     align-items: center;
     /* background: #234567; */
   }
   nav img{
-    width: 150px;
+    width: 160px;
   }
   .nav-tabs{
     flex: 1;
@@ -156,13 +156,17 @@
     padding: 30px 2px;
 }
 .about-col img{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .about-col h1{
     padding-top: 0;
 }
 .about-col p{
-    padding: 15px 0 25px;
+  float: left;
+  padding: 15px 0 25px;
+    width: 80%;
+    margin: auto;
 }
 @media(max-width: 700px ){
     .row{
@@ -201,4 +205,9 @@
   }
   .bi-heart{
     color: #ff4433;
+  }
+  .aboutus{
+    font-size:x-large;
+    font-weight: 800;
+    padding-top: 20px;
   }
