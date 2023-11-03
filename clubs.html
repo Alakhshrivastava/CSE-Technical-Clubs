@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Technical Clubs</title>
+    <link rel="stylesheet" type="text/css" href="clubs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header section  -->
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/logo.png" alt="not loading.."></a>
+            <div class="nav-tabs" id="navTabs">
+                <i class="bi bi-x" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Clubs</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi voluptatum libero, laboriosam esse mollitia dignissimos maxime cumque earum nostrum doloremque eligendi voluptatem aliquid consectetur!</p>
+            <!-- <a href="" class="link-button"></a> -->
+        </div>
+    </section>
+
+
+    <section class="clubs">
+        <!-- <h1>Our Clubs</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, reiciendis!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloribus.</p> -->
+        <div class="row">
+            <div class="club-col">
+                <h3> <a href="csi.html">CSI</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae cumque nostrum dolorum, aliquam totam reprehenderit.</p>
+            </div>
+            <div class="club-col">
+                <h3><a href="gdsc.html">GDSC</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid, numquam fugit corporis impedit autem.</p>
+            </div>
+            <div class="club-col">
+                <h3><a href="mozilla.html">MOZILLA</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maiores aperiam sunt magnam nisi omnis!</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="club-col2">
+                <h3><a href="gfg.html">GFG</a></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae cumque nostrum dolorum, aliquam totam reprehenderit.</p>
+            </div>
+            <div class="club-col3">
+                <h3><a href="dic.html">DIC</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid, numquam fugit corporis impedit autem.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- footer section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestias reiciendis laudantium commodi.Quia expedita neque facere, impedit reiciendis quam fuga repellendus suscipit cumque? Modi eaque enim quisquam esse quidem.</p>
+        <div class="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made with <i class="bi bi-heart"></i> easy tutorials</p>
+    </section>
+
+    
+    <!-- java script section -->
+    <script>
+        var navTabs = document.getElementById("navTabs");
+        function showmenu(){
+            navTabs.style.right="0";
+        }
+        function hidemenu(){
+            navTabs.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
