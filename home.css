@@ -6,7 +6,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+  background-image: linear-gradient(rgba(4,9,30,3),rgba(4,9,30,0.7)),url(images/bannerhome.jpg.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -182,6 +182,34 @@ h1{
   padding: 20px 12px;
   box-sizing: border-box;
 }
+
+/* images of this section */
+.csi-img img{
+  width: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.gdsc-img img{
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.moz-img img{
+  width: 140px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.gfg-img img{
+  width: 110px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.dic-img img{
+  width: 130px;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
 .club-col2{
   margin-left: 16%;
   flex-basis: 31%;
@@ -204,7 +232,8 @@ h3{
   color: white;
   text-align: center;
   font-weight: 700;
-  margin: 10px 0;
+  font-size: 25px;
+  margin: auto;
 }
 .club-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
