@@ -163,6 +163,81 @@ nav .bi{
   line-height: 22px;
   padding: 10px;
 } */
+
+/* images of this section */
+.csi-img img{
+  width: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.gdsc-img img{
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+.moz-img img{
+  width: 140px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+.gfg-img img{
+  width: 110px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+.dic-img img{
+  width: 130px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+}
+
+
+.row h3 a{
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.row h3::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+.row h3:hover::after{
+  width: 100%;
+
+}
+.row2 h3 a{
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0;
+  text-decoration: none;
+}
+.row2 h3::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+.row2 h3:hover::after{
+  width: 100%;
+
+}
+
 .row p{
   color: white;
   font-size: 14px;
@@ -213,12 +288,7 @@ nav .bi{
   padding: 20px 12px;
   box-sizing: border-box;
 }
-h3 a{
-  color: white;
-  text-align: center;
-  font-weight: 700;
-  margin: 10px 0;
-}
+
 .club-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
 }
@@ -238,8 +308,35 @@ h3 a{
   .club-col2{
     margin-left: 0;
   }
-  .club-col3{
-    margin-right: 0;
+  .csi-img img{
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .gdsc-img img{
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+  .moz-img img{
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+  }
+  .gfg-img img{
+    width: 110px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+  }
+  .dic-img img{
+    width: 130px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
   }
 }
 
