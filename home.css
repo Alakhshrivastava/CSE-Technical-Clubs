@@ -236,7 +236,9 @@ h3{
   margin: auto;
 }
 .club-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 151, 252, 0.2);
+    background: #012345;
+    
 }
 @media(max-width: 700px ){
   .row{
@@ -251,6 +253,16 @@ h3{
   .club-col3{
     margin-right: 0;
   }
+}
+.club-col2:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 151, 252, 0.2);
+  background: #012345;
+  
+}
+.club-col3:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 151, 252, 0.2);
+  background: #012345;
+  
 }
 
 /* Events section */
