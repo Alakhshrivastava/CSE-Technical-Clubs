@@ -124,6 +124,9 @@ nav .bi{
     font-size: 22px;
     cursor: pointer;
   }
+  nav .bi-list{
+    margin-left: auto;
+  }
   .nav-tabs ul{
     padding-top: 0;
     padding-left: 20px;
