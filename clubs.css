@@ -20,7 +20,7 @@ nav{
     /* background: #234567; */
   }
 nav img{
-    width: 150px;
+    width: 140px;
   }
 .nav-tabs{
     flex: 1;
@@ -124,7 +124,7 @@ nav .bi{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.png);
+    background-image: linear-gradient(rgba(4,9,30,0),rgba(4,9,30,0.7)),url(images/background.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -213,7 +213,13 @@ h3 a{
   margin: 10px 0;
 }
 .club-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+.club-col2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+.club-col3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
 }
 @media(max-width: 700px ){
   .row{
