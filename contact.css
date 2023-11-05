@@ -69,7 +69,7 @@ nav img{
   color: white;
 
 }
-.aboutus{
+.contact{
   font-size:62px;
 }
 .link-button{
@@ -155,7 +155,7 @@ nav .bi{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.aboutus{
+.contact{
 font-size:xx-large;
 font-weight: 800;
 }
@@ -184,14 +184,14 @@ padding: 15px 0 25px;
 
 input[type=text], select, textarea {
   
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 /* Style the submit button with a specific background color etc */
