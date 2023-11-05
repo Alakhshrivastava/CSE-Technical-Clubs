@@ -151,8 +151,9 @@ nav .bi{
 }
 .about{
   width: 80%;
-  margin: auto;
+  margin: 10px;
   padding-top: 50px;
+  padding-left: 150px;
   padding-bottom: 50px;
 }
 .contact{
@@ -212,8 +213,9 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
+  margin-left:20vb;
   background-color: #234567;
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -247,14 +249,12 @@ margin-top: 20px;
   cursor: pointer;
   padding: 18px 0;
 }
-.bi-heart{
-  color: #ff4433;
-}
+
 
 table, th, td {
-  border: 40px whitesmoke;
+  border: 100px whitesmoke;
   border-collapse: collapse;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 table :hover{
