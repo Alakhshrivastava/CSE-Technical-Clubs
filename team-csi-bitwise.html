@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Technical Clubs</title>
+    <link rel="stylesheet" type="text/css" href="team-csi-bitwise.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="images/ctchorizon.png" alt="not loading..."></a>
+            <div class="nav-tabs" id="navTabs">
+                <i class="bi bi-x" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmenu()"></i>
+        </nav>
+        <div class="aboutus">
+            <h1>CSI BITWISE</h1>
+            <p>3rd Year</p>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events">
+        <div class="row">
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>SECETARY</h3>
+                    <h4>PRINCE RAJPOOT</h4>
+                </div>
+            </div>
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>DEPUTY SECETARY</h3>
+                    <h4>SAMBHAV MEHTA</h4>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECETARY</h3>
+                    <h4>ASHUTOSH MISHRA</h4>
+                </div>
+            </div>
+            <div class="event-col">
+                <img src="images/himanshu.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECETARY</h3>
+                    <h4>HIMANSHU MAHTO</h4>
+                </div>
+            </div>
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECRETARY</h3>
+                    <h4>YASH AGRAHARI</h4>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECRETARY</h3>
+                    <h4>SHUCHITA GUPTA</h4>
+                    
+                </div>
+            </div>
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECETARY</h3>
+                    <h4>LUV PATEL</h4>
+                </div>
+            </div>
+            <div class="event-col">
+                <img src="images/nopic.png" alt="not loading...">
+                <div class="layer">
+                    <h3>JOINT SECETARY</h3>
+                    <h4>RAGHAV BAJORIA</h4>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+
+
+ 
+    <!-- footer section -->
+    <section class="footer">
+        <h4>About</h4>
+        <p>CSE Technical Clubs website. A project as Minor 1</p>
+        <div class="icon">
+            <i class="bi bi-github"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        <p>Made by Aakarsh, Alakh & Ali</p>
+    </section> 
+
+    <!-- java script section -->
+    <script>
+        var navTabs = document.getElementById("navTabs");
+        function showmenu(){
+            navTabs.style.right="0";
+        }
+        function hidemenu(){
+            navTabs.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
