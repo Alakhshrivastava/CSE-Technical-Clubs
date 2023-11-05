@@ -227,6 +227,22 @@
     bottom: 10%;
     opacity: 1;
   }
+  .layer h4{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .layer:hover h4{
+    bottom: 5%;
+    opacity: 1;
+  }
   
   /* Footer section */
   .footer{
