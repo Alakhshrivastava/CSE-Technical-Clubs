@@ -4,7 +4,7 @@ $visitor_email = $_POST['Email'];
 $phone_no = $_POST['Phone'];
 $subject = $_POST['subject'];
 
-$email_from ='info@CSE.com';
+$email_from ='info@ctc-juet.netlify.app';
 
 $email_subject = 'New form submission';
 $email_body = "Name: $name.\n".
@@ -20,5 +20,5 @@ $headers .= "Reply-to: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: contact.htnl");
+header("Location: contact.html");
 ?>
