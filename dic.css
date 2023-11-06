@@ -151,6 +151,18 @@
     text-align: center;
     padding-top: 3%;
   }
+  /* image section of this page */
+  .ar-img img{
+    width: 250px;
+    margin-bottom: -30px;
+    margin-left: 60px;
+  }
+  .ros-img img{
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
 .row{
     margin: 5%;
     display: flex;
@@ -219,6 +231,17 @@
     }
     .club-col3{
       margin-right: 0;
+    }
+    .ar-img img{
+      width: 250px;
+      margin-bottom: -30px;
+      margin-left: 0px;
+    }
+    .ros-img img{
+      width: 250px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-left: 0px;
     }
   }
 .about{
